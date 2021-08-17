@@ -6,13 +6,38 @@
 }
 
 .main-navbar {
-    height: 50px;
+    height: 10%;
     width: 100vw;
-    background-color: greenyellow;
+    background-color: rgb(186, 241, 102);
     position: absolute;
 }
 
 .main-presentacion {
     height: 100vh;
-    background-color: rgb(99, 108, 241);
+    background-color: lightblue;
+}
+
+.main-integrantes {
+    height: 100vh;
+    background-color: khaki;
+}
+
+.main-shows {
+    height: 100vh;
+    background-color: lightcoral;
+}
+
+.main-popular {
+    height: 100vh;
+    background-color: lightcyan;
+}
+
+.main-instagram {
+    height: 100vh;
+    background-color: lightgoldenrodyellow;
+}
+
+.footer {
+    height: 100vh;
+    background-color: lightseagreen;
 }
