@@ -6,15 +6,20 @@
 }
 
 .main-navbar {
-    height: 10%;
+    height: 80px;
     width: 100%;
     background-color: rgb(186, 241, 102);
-    position: absolute;
 }
 
 .main-presentacion {
     height: 100vh;
     background-color: lightblue;
+    display: grid;
+    grid-template-columns: repeat(autofill, minmax(15rem,1fr));
+}
+
+.img {
+    width: 100%;
 }
 
 .main-integrantes {
