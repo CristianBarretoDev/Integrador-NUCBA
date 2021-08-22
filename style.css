@@ -1,26 +1,54 @@
 /* MAQUETA!!! */
+
+/*
+
+rgb colores paleta 
+
+272727,fcba04,a50104,fcfcfc,9197ae
+
+*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+
+/* NAV BAR */
+
 .main-navbar {
     height: 80px;
     width: 100%;
-    background-color: rgb(186, 241, 102);
+    background-color: rgb(252, 186, 4);
+    position: absolute;
 }
+
+
+/* MAIN SECTION! */
+
 
 .main-presentacion {
     height: 100vh;
     background-color: lightblue;
     display: grid;
     grid-template-columns: repeat(autofill, minmax(15rem,1fr));
+    background-image: url(/img/bk-repeat.jpg);
+    background-repeat: repeat;
+    background-size: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.img {
-    width: 100%;
-}
+.img-logo-main{    
+    max-width: 90%;
+} 
+
+
+
+
+
+/* MAIN INTEGRANTES */
 
 .main-integrantes {
     height: 100vh;
