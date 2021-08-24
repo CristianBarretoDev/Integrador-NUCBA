@@ -38,6 +38,14 @@ rgb colores paleta
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-flow: column wrap;
+}
+
+.textos-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .img-logo-main{    
@@ -46,8 +54,17 @@ rgb colores paleta
 
 .texto-main {
     color: ghostwhite;  
+    font-family: Six Caps;
 }
 
+.titulo-principal {
+    font-size: 4em;
+    letter-spacing: 3px;
+}
+
+.titulo-principal2 {
+    font-size: 3em;
+}
 
 
 
