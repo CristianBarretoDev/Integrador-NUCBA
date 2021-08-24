@@ -30,8 +30,6 @@ rgb colores paleta
 .main-presentacion {
     height: 100vh;
     background-color: lightblue;
-    display: grid;
-    grid-template-columns: repeat(autofill, minmax(15rem,1fr));
     background-image: url(/img/bk-repeat.jpg);
     background-repeat: repeat;
     background-size: 10%;
@@ -60,10 +58,12 @@ rgb colores paleta
 .titulo-principal {
     font-size: 4em;
     letter-spacing: 3px;
+    padding-top: 20px;
 }
 
 .titulo-principal2 {
     font-size: 3em;
+    padding-top: 20px;
 }
 
 
