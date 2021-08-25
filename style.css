@@ -28,6 +28,7 @@ rgb colores paleta
 
 
 .main-presentacion {
+    width: 100vw;
     height: 100vh;
     background-color: lightblue;
     background-image: url(/img/bk-repeat.jpg);
@@ -39,6 +40,14 @@ rgb colores paleta
     flex-flow: column wrap;
 }
 
+.main-presentacion-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
 .textos-main-container {
     display: flex;
     justify-content: center;
@@ -47,7 +56,7 @@ rgb colores paleta
 }
 
 .img-logo-main{    
-    max-width: 90%;
+    max-width: 100%;
 } 
 
 .texto-main {
@@ -58,7 +67,7 @@ rgb colores paleta
 .titulo-principal {
     font-size: 4em;
     letter-spacing: 3px;
-    padding-top: 20px;
+    padding-top: 23px;
 }
 
 .titulo-principal2 {
